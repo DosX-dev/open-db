@@ -20,3 +20,6 @@
 // x 12 || 23
 @|ki4potitra|aa7cdad0ffe8f2b865ea39eff|8d7267
 @|ROTCETORPEN|8bb301a458e3a567a58460b65|c0ba05
+
+// x 12 || 6
+@|yzoni|d32ab2d987b7139c1e5cc69f8|6abe1d
