@@ -17,9 +17,7 @@
 @|isyork|af13cb535c57bf0f6ab67ef20|6e8566
 @|maeT-ihsoniC|3bcbd8026f276b403143233f4|9e407c
 
-// x 12 || 23
-@|ki4potitra|aa7cdad0ffe8f2b865ea39eff|8d7267
-@|ROTCETORPEN|8bb301a458e3a567a58460b65|c0ba05
-
-// x 12 || 6
-@|yzoni|d32ab2d987b7139c1e5cc69f8|6abe1d
+// banned
+@|ki4potitra|aa7cdad0ffe8f2b865ea39eff|18d7267
+@|ROTCETORPEN|8bb301a458e3a567a58460b65|1c0ba05
+@|yzoni|d32ab2d987b7139c1e5cc69f8|16abe1d
