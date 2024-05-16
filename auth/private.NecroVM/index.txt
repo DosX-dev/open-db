@@ -1,0 +1,14 @@
+// NecroVM public database
+// format version 2.0+
+
+CHECKSUM=@open(...)
+GENALG=@algo(->...)
+
+@|]veD[ MVorceN|769bd36304ab819c5c464f8e3|f82493
+
+@|anyddrib|06fd81c617877735ce1148f1f|4f1bcc
+@|isyork|4994beb29a41ca71604ac60b8|0fc442
+@|drolever|0e0c04368dc2e1342e18fa0ce|8d14fc
+@|rotiekidniV|435fdd9602cba54c618c9d5fb|2153ca
+@|roxev|37b436a4ea9eefee6cb2a3b2f|6de979
+@|_floWorceN|396e724e5542052fd96e1f649|cd8f52
