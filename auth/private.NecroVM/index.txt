@@ -5,6 +5,7 @@ CHECKSUM=@open(...)
 GENALG=@algo(->...)
 
 @|]veD[ MVorceN|769bd36304ab819c5c464f8e3|f82493
+@|XsoD|74c61439b0cca1ee652ec6dc9|8e1c54
 
 @|anyddrib|06fd81c617877735ce1148f1f|4f1bcc
 @|isyork|4994beb29a41ca71604ac60b8|0fc442
