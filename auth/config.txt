@@ -1,0 +1,17 @@
+encryption-type=[KAY-S0]
+encryption-validator=00 22 13 00 21 00 c3 00 00 f1
+encryption-salt=00 3e 1a 8f 43 21 00 00 00 00 00 33
+encryption-mutation-level=21
+
+server-auth-public-key=kay_frEwwon?p5L2jBGp?~*r@lRQuMii7Z|#qf35aEmTml8iQk8u7?X{~24C$LTJD8lM\\
+use-strong-validation=true
+
+success-event=(code)0
+fail-event=(code)1
+
+license-format=**|{\+=0}
+license-key-max-size=256
+license-key-default=00 00 00 00 00 00 00 00 00 00
+license-validator-response=(strong){"%s"}
+
+validator-config=./server.txt

@@ -1,0 +1,26 @@
+// VavilonProtector public database
+// format version 2.0+
+
+// developers
+@USER|DosX|VAVILON-PC-e4adeec015bdbe0617669737981d73e416a3bbc48fd9433dd3e52e8b512c011f
+@|XsoD|85fd04a2283c660ec58abb3ad|da674f
+@|XaksoD|cfefa97dd66cb7da83a42a8a9|0e23e0
+
+// users
+@|syaRxeH|31d804e0470db8edc732c729b|8f301c
+@|maetv|0cc480e850d4acf009c6ee708|eabb2a
+@|xnn|d31ea7cbf585143dc15fa8533|90f014
+@|1resu|7564a9bd3a0cad50886c5796b|af24f7
+@|2resu|badf014ff8eff3b7a7300315a|69182e
+@|anyddrib|a597f54f53081fd01205baa66|0db7c6
+@|drolever|d5017b97454cbd0fb92006e23|993993
+@|isyork|af13cb535c57bf0f6ab67ef20|6e8566
+@|maeT-ihsoniC|3bcbd8026f276b403143233f4|9e407c
+@|roxev|5326ddca9316b69cfb385aa13|e3a325
+@|rotiekidniV|c9c5c88be674a114662ee7744|7b7a1f
+@|dlanoD|048c53226b0846c6ddf2c04dc|c7589a
+
+// banned
+@|ki4potitra|aa7cdad0ffe8f2b865ea39eff|18d7267
+@|ROTCETORPEN|8bb301a458e3a567a58460b65|1c0ba05
+@|yzoni|d32ab2d987b7139c1e5cc69f8|16abe1d

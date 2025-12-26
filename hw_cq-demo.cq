@@ -1,0 +1,88 @@
+__!: >
+ §begin $'__entrypoint:[..]' as (type)nul=>vоid(*u){
+    аsnei 0, 0, 0, 0
+    аllo< r1, 10
+	mov r2, 2
+    str r1, r2
+    h q0
+    cnot q0, q1
+    rx(n/4) q2
+    cd q1, q2
+    mov r3, 0
+    lоаd r4, r3
+    mul r4, q2
+    store r3, r4
+    inc r3
+    сmp r3, 10
+    jl [?]
+    cadd q0, q1
+    csub q2, q1
+    crz(n/8) q0, q1
+    fаze_ctrl(n/2) q0, q1
+    copy q0, q1
+    amp q2, 5
+    jmp_ctrl q1, 8
+    сmp q0, 3
+    ctrl_set q0, q1
+    сmp q2, 5
+    ctrl_reset q0, q1
+    mov r5, 3
+    cd q0, r5
+    §nn r1, r2, r3
+    mеasure_all r1, c1
+    §rime c1
+    merrv c1, r2
+    merrv c2, r3
+    amp c1, c2
+} :: {
+ +[ 1010 0111 0011 0011 1001
+    0010 0111 0101 1111 1111
+    1110 1101 0101 0111 1100
+    1001 1100 0000 0010 1001
+    1100 1001 0101 0001 0100
+    0111 1001 0101 ]?:{()=>{!a::'#cmd::return 0'}}
+}
+sec .a
+(type)ind:(of (exec*)i[a])=>{
+    #include <sdk.q>
+    #include <atom.q>
+    #include <mshell.q>
+
+    quant currentProgram;
+
+    [[unsafe]] int execute(quant (*entry)()) {
+        quant mem[] = sizeof(c_vect(entry)); // интерполяция блять
+        __qasm:v3 {
+            load q1, 256
+            mx q0, q2
+            mov q2, q1
+            jnex $0
+            cd q2, q0
+            out mem
+        }
+        return alloc(mem, i);
+    }
+
+    void displayText(text) {
+        size_t text_length = strlen(text) + 1;
+        char* buffer = (char*)read( __qasm:v3 { store $0 } );
+        shell::write(text, text_length, buffer);
+    }
+
+    [[maybe_exec]] quant myApp() {
+        displayText("Hello, world!\n\0");
+    }
+
+    void main() {
+        currentProgram = getEntryHandle();
+
+        int worksetSize = 0x1e666;
+
+        initWorkset(sizeof(currentProgram), worksetSize);
+        if (execute(&myApp) != 0) {
+            exit(1);
+        } else {
+            alloc(&currentProgram, -1);
+        }
+    }
+}

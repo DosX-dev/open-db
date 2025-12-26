@@ -1,0 +1,14 @@
+antispoof=00|32|16|16|32|32|32|64|16|0|f92b17v223498-v1|kay-software.ru
+antispoof-packet-sample=!~0fb18fa3n00ks841\\
+ports=1,443
+v1=false
+v2=false
+v3=false
+v4=true
+v5=false
+v6=true
+v7=true
+v8=true
+v9=true
+v10=true
+v11=true
